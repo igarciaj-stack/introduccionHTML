@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+       <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="simple.html">Web Simple</a>
+                </li>
+                <li>
+                    <a href="tablas.html">Tablas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Tablas en html</h1>     
+    <section>
+        <h2>Ejemplo básico</h2>
+        <table border="1"> 
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Profesion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Pérez</td>
+                    <td>28</td>
+                    <td>Desarrolladora</td>
+                </tr>
+                  <tr>
+                    <td>Carlos Ruiz</td>
+                    <td>34</td>
+                    <td>Diseñador</td>
+                  </tr>
+            </tbody>
+        </table>
+        <h2>Colspan y rowspan</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Producto</th>
+                <th colspan="2">Precio</th>
+            </tr>
+            <tr>
+               <th>Unidad</th>
+               <th>Total</th> 
+            </tr>
+            <tr>
+                <td>Manzanas</td>
+                <td>2€</td>
+                <td>10€</td>
+            </tr>
+        </table>
+        <h2>Horario</h2>
+        <table border="1">
+            <tr>
+                <th>&nbsp;</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>15:00-15:55</td>
+                <td rowspan="2">AplicOfi.</td>
+                <td rowspan="2">AplicOfi.</td>
+                <td rowspan="2">Si.Opera</td>
+                <td>Ingles</td>
+                <td rowspan="2">Xarxes</td>
+            </tr>
+             <tr>
+                <td>15:55-16:50</td>
+                <td rowspan="2">Xarxes</td>
+                
+            </tr>
+             <tr>
+                <td>16:50-17:45</td>
+                <td>Ingles</td>
+                <td>Si.Opera</td>
+                <td>Mime</td>
+                <td>Digitalizacion</td>
+            </tr>
+             <tr>
+                <td>17:45-18:15</td>
+                <td colspan="5">Patio</td>
+            </tr>
+             <tr>
+                <td>18:50-19:50</td>
+                <td>Ingles</td>
+                <td>Si.Opera</td>
+                <td>Mime</td>
+                <td>Si.Opera</td>
+                <td rowspan="3">Ipo</td>
+            </tr>
+             <tr>
+                <td>19:50-20:50</td>
+                <td rowspan="2">Mime</td>
+                <td rowspan="2">Mime</td>
+                <td rowspan="2">Xarxes</td>
+                <td rowspan="2">AplicOfi.</td>
+                
+            </tr>
+             <tr>
+                <td>20:50-21-30</td>
+                
+            </tr>
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+</body>
+</html>
